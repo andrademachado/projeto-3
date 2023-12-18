@@ -1,0 +1,64 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+
+.navbar{
+    background-color: #41e1c4;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #000;
+    color: #41e1c4;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-procedimento .nav-link.active:hover {
+    color: #000;
+}
+
+
+
+.navbar-toggler {
+    background-color:  ;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+
+#sobre-a-clinica, #procedimento {
+    background-color:#eaf2f1;
+}
+
+.text-colored {
+    color:#41e1c4;
+}
+.nav-procedimento .nav-link.active,
+#fale-conosco button {
+    background-color:#41e1c4;
+    color: #000;
+}
+
+
+
+.nav-procedimento .nav-link:hover{
+    color:#41e1c4;
+}
+
+.social-links li{
+    list-style: nome;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media(max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+} 
